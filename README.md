@@ -40,6 +40,14 @@ git clone https://github.com/xiebaoma/sky-take-out.git
 
 由于你是克隆的项目，所以建议先编译maven工程，没有报错后再运行
 
+### 接口（非必须）
+
+可以通过接口进行调试
+
+进入接口文档，将.json文件导入测试接口的应用（比如YAPI）
+
+也可以直接通过前后端联调进行测试
+
 ### 5，打开服务端
 
 进入nginx目录，打开命令行，输入（不要直接点击nginx.exe)
