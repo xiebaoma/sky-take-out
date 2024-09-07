@@ -26,6 +26,10 @@ git clone https://github.com/xiebaoma/sky-take-out.git
 
 ### 2，配置数据库和阿里云OSS
 
+建立数据库，导入databases中的sql文件
+
+在阿里云上准备好OSS
+
 用IDEA打开项目，在 application.yml 和 application-dev.yml中配置你自己的数据库和云存储
 
 ### 3，配置maven依赖
