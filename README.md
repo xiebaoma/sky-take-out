@@ -38,7 +38,7 @@ git clone https://github.com/xiebaoma/sky-take-out.git
 
 ### 5，打开服务端
 
-进入nginx目录，打开命令行，输入
+进入nginx目录，打开命令行，输入（不要直接点击nginx.exe)
 
 ```
 start nginx
