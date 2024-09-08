@@ -16,6 +16,8 @@ nginx
 
 MySQL
 
+Redis
+
 ## 项目部署
 
 ### 1，克隆到本地

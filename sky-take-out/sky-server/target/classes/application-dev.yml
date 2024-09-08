@@ -11,3 +11,8 @@ sky:
     access-key-id: LTAI5t5fq6SkuX1b22EG4ejs
     access-key-secret: OJlgL5imCDVgMj9IGdwQ5qNo4FCSdy
     bucket-name: xbm-picture
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 0
