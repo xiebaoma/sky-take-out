@@ -82,3 +82,5 @@
 2024/09/08 21:16:24 [error] 26180#54012: *18 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /api/workspace/overviewDishes HTTP/1.1", upstream: "http://localhost/admin/workspace/overviewDishes", host: "localhost:8800", referrer: "http://localhost:8800/"
 2024/09/08 21:16:24 [error] 26180#54012: *19 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /api/workspace/overviewSetmeals HTTP/1.1", upstream: "http://localhost/admin/workspace/overviewSetmeals", host: "localhost:8800", referrer: "http://localhost:8800/"
 2024/09/08 21:37:50 [notice] 41436#49536: signal process started
+2024/09/10 00:44:14 [error] 20368#59924: *3 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /user/shop/status HTTP/1.1", upstream: "http://127.0.0.1:8080/user/shop/status", host: "localhost:8800", referrer: "https://servicewechat.com/wxb93a7d426ad3664c/devtools/page-frame.html"
+2024/09/10 01:03:39 [notice] 36624#23936: signal process started
