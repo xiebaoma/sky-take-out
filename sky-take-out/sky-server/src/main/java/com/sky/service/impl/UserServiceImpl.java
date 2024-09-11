@@ -1,6 +1,5 @@
 package com.sky.service.impl;
 
-
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.sky.constant.MessageConstant;
@@ -19,7 +18,6 @@ import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 
-
 @Service
 @Slf4j
 public class UserServiceImpl implements UserService {
@@ -33,15 +31,11 @@ public class UserServiceImpl implements UserService {
     private WeChatProperties weChatProperties;
 
     public User wxLogin(UserLoginDTO userLoginDTO) {
-
         String openid = getOpenid(userLoginDTO.getCode());
-
         if(openid==null){
             throw new LoginFailedException(MessageConstant.LOGIN_FAILED);
         }
-
         User user = userMapper.getByOpenid(openid);
-
         if(user==null){
             user = User.builder()
                     .openid(openid)
@@ -50,7 +44,6 @@ public class UserServiceImpl implements UserService {
             userMapper.insert(user);
         }
         return user;
-
     }
 
     private String getOpenid(String code){
