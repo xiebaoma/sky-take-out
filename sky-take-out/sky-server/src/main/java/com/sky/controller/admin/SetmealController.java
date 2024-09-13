@@ -25,7 +25,7 @@ public class SetmealController {
     private SetmealService setmealService;
 
     @PostMapping
-    @ApiOperation("新增套餐接口")
+    @ApiOperation("新增套餐")
     @CacheEvict(cacheNames = "setmealCache",key = "#setmealDTO.categoryId")
     public Result save(@RequestBody SetmealDTO setmealDTO){
         setmealService.saveWithDish(setmealDTO);
