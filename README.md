@@ -28,6 +28,14 @@ git clone https://github.com/xiebaoma/sky-take-out.git
 
 ### 2，配置数据库和阿里云OSS
 
+启动MySQL和Redis
+
+进入Redis目录，在命令行输入：
+
+```
+redis-server.exe redis.windows.conf
+```
+
 建立数据库，导入databases中的sql文件
 
 在阿里云上准备好OSS

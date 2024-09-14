@@ -110,3 +110,4 @@
 2024/09/13 21:45:59 [error] 27852#24876: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /user/shop/status HTTP/1.1", upstream: "http://127.0.0.1:8080/user/shop/status", host: "localhost:8800", referrer: "https://servicewechat.com/wxb93a7d426ad3664c/devtools/page-frame.html"
 2024/09/13 21:46:44 [error] 27852#24876: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /user/shop/status HTTP/1.1", upstream: "http://127.0.0.1:8080/user/shop/status", host: "localhost:8800", referrer: "https://servicewechat.com/wxb93a7d426ad3664c/devtools/page-frame.html"
 2024/09/13 21:52:05 [notice] 28224#25756: signal process started
+2024/09/14 20:49:47 [notice] 12624#23328: signal process started
