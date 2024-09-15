@@ -53,3 +53,7 @@ sky:
   wechat:
     appid: ${sky.wechat.appid}
     secret: ${sky.wechat.secret}
+  shop:
+    address: 北京理工大学良乡校区
+  baidu:
+    ak: EL1LzUABsnn3WUmn7K8j37H7L7UIGv66
