@@ -7,18 +7,18 @@ sky:
     username: root
     password: 314159
   alioss:
-    endpoint: oss-cn-beijing.aliyuncs.com
-    access-key-id: LTAI5t5fq6SkuX1b22EG4ejs
-    access-key-secret: OJlgL5imCDVgMj9IGdwQ5qNo4FCSdy
-    bucket-name: xbm-picture
+    endpoint: *******
+    access-key-id: ************
+    access-key-secret: ************
+    bucket-name: **********
   redis:
     host: localhost
     port: 6379
     password: 123456
     database: 0
   wechat:
-    appid: wxb93a7d426ad3664c
-    secret: d7d8c0766dec96edb9dc75bb0f983ec3
+    appid: ***********
+    secret: ********************8
     mchid: 1561414331
     mch-serial-no: 4B3B3DC35414AD50B[B755BAF8DE9CC7CF407606
     private-key-file-path: 4B3B3DC35414AD50B[B755BAF8DE9CC7CF407606
